@@ -16,7 +16,6 @@
 // const imagePath = (name) => images(name, true)
 
 //console.log('Hello World from Webpacker')
-import 'bootstrap';
 
 import { display_first_block, click } from '../plugins/onclick';
 display_first_block();
