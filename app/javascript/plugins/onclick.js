@@ -12,9 +12,4 @@
   };
 
 
-
-
-
-
-
 export { click };

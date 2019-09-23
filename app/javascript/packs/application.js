@@ -20,3 +20,9 @@
 import { click } from '../plugins/onclick';
 click();
 
+import { girl_or_boy } from '../plugins/girl_or_boy';
+girl_or_boy();
+
+import { swag_or_not } from '../plugins/swag';
+swag_or_not();
+
