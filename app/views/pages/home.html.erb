@@ -1,1 +1,84 @@
-TEST
+<div>
+  <div class="logo">
+  <%= image_tag "rainbow_logobis.png", alt:"rainbow is coming", width: 400  %>
+  </div>
+
+  <div id="first_block">
+    <div class="title">
+      Hello jolie Anne 🦄❤️
+    </div>
+    <div class="message">
+      Pour ton anniversaire, quelqu'un a pensé à toi.
+    </div>
+    <div class="message">
+      Si si, je t'assure. Ne fais pas la modeste 😝. Oui, bon d'accord, la personne en question a un peu de retard. Mais bon l'oeuvre que tu as sous les yeux ne s'est pas construite toute seule, ni en un jour petite ingrate !
+    </div>
+    <div class="message">
+      Bon, tu veux savoir qui c'est ?
+    </div>
+    <button class="btn btn-outline-secondary", id="click-here">🌈 CLIQUE ICI 🌈</button>
+  </div>
+
+  <div id="second_block" class="display_none">
+    <div class="message mt-3">
+      Ah... Donc tu es quand même intéressée ! Tu fais genre, tu fais genre, mais avoue que j'ai piqué ta curiosité !
+    </div>
+    <div class="message">
+      Je vais te délivrer quelques petits indices...
+    </div>
+    <div class="message">
+      Tout d'abord, penses-tu que ça soit une femme ou un homme ?
+    </div>
+    <button class="btn btn-outline-secondary">Une femme ♁</button>
+    <button class="btn btn-outline-secondary">Un homme ♂︎</button>
+  </div>
+
+  <div id="third_block" class="display_none">
+    <div class="message mt-3 girl_answer">
+      Ouiiii, bien joué ! 💋
+      Les femmes qui sont bien supérieures aux hommes sur tous points (je le rappelle au passage)
+    </div>
+      <div class="message mt-3 boy-answer">
+      Non mais quelle obsédée 🍑 !! Non c'est une femme, très chère !!
+    </div>
+    <div class="message">
+      On continue...
+    </div>
+    <div class="message", id="first_question">
+      Penses-tu que cette personne soit stylée?
+    </div>
+    <div>
+    <button class="btn btn-outline-secondary mb-1">Oui car tous mes amis ont le swag 😎</button>
+    </div>
+    <button class="btn btn-outline-secondary">Pas 100% sûre, je connais des boulets</button>
+  </div>
+
+  <div id="fourth_block" class="display_none">
+    <div class="message mt-3 swag_answer">
+      Yes, mama 👏👏 Stylée certes mais has been car on ne dit plus "avoir le swag" depuis 2017.
+    </div>
+      <div class="message mt-3 swag-answer">
+      Non mais quelle méchante 🧟‍♀️ !! Enfin, ça ne m'étonne pas trop de toi... Mauvaise réponse, ton amie est méga stylée (d'après ses dires, moi je la connais pas hein!)
+    </div>
+    <div class="message">
+      On continue...
+    </div>
+    <div class="message">
+      Bon comme tu es un peu lente, ton amie et moi on a décidé de te donner des GROS GROS indices. Parce que tu es enceinte. Et qu'on est sympas.
+    </div>
+    <button class="btn btn-outline-secondary mb-1">J'ai besoin d'aide</button>
+  </div>
+
+  <div id="fifth_block" class="display_none">
+    <div class="message mt-3">
+      On va faire un "où est Charlie" pour l'occasion.
+    </div>
+    <div>
+      <%= image_tag "boomerang.gif", alt:"", width: 200  %>
+    </div>
+    <button class="btn btn-outline-secondary mb-1 mt-1">NEXT</button>
+  </div>
+
+</div>
+
+<canvas id="canvas"></canvas>
