@@ -17,7 +17,6 @@
 
 //console.log('Hello World from Webpacker')
 
-import { display_first_block, click } from '../plugins/onclick';
-display_first_block();
+import { click } from '../plugins/onclick';
 click();
 
