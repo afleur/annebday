@@ -6,9 +6,11 @@
       const fourth_block = document.querySelector('#fourth_block');
       const fifth_block = document.querySelector('#fifth_block');
       const girl_answer = document.querySelector('.girl_answer');
+      const boy_answer = document.querySelector('.boy_answer');
 
       third_block.classList.add("display_none");
       girl_answer.classList.add("display_none");
+      boy_answer.classList.add("display_none");
       swag_answer.classList.remove("display_none");
       fourth_block.classList.remove("display_none");
       };

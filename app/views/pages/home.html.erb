@@ -36,10 +36,11 @@
     <div class="message mt-3 girl_answer display_none">
       Ouiiii, bien joué ! 💋
       Ah les femmes... Ces êtres supérieurs aux hommes sur tous points.
-      <div style="width:100%;height:0;padding-bottom:51%;padding-top:10%;position:relative;"><iframe src="https://giphy.com/embed/jZUz0iksOclLa" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <div style="width:100%;height:0;padding-bottom:45%;padding-top:10%;position:relative;"><iframe src="https://giphy.com/embed/jZUz0iksOclLa" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     </div>
-      <div class="message mt-3 boy_answer display_none">
+    <div class="message mt-3 boy_answer display_none">
       Non mais quelle obsédée 🍑 !! Non c'est une femme, très chère !!
+      <div style="width:100%;height:0;padding-bottom:50%;padding-top:10%;position:relative;"><iframe src="https://giphy.com/embed/IXTkvYCHkgSKA" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     </div>
 
   <div id="third_block" class="display_none">
@@ -47,7 +48,7 @@
       On continue...
     </div>
     <div class="message" id="first_question">
-      Penses-tu que cette personne soit stylée?
+      Penses-tu que la personne en question soit brillante ✨?
     </div>
     <div>
       <button class="btn btn-outline-secondary mb-1" id="swag_btn">Oui car tous mes amis ont le swag 😎</button>
@@ -57,34 +58,35 @@
 
 
     <div class="message mt-3 display_none" id="swag_answer">
-      Yes, mama 👏👏 Stylée certes mais has been car on ne dit plus "avoir le swag" depuis 2017.
+      Yes, mama 👏👏 Intelligente, certes, mais has been car on ne dit plus "avoir le swag" depuis 2017.
     </div>
+
     <div class="message mt-3 display_none" id="notswag_answer">
-      Non mais quelle méchante 🧟‍♀️ !! Enfin, ça ne m'étonne pas trop de toi... Mauvaise réponse, ton amie est méga stylée (d'après ses dires, moi je la connais pas hein!)
+      Non mais quelle méchante 🧟‍♀️ !! Enfin, ça ne m'étonne pas trop de toi... Mauvaise réponse, ton amie est non seulement intelligente mais truffée de tout un tas d'autres qualités que nous n'allons pas préciser ici car la liste serait trop longue.
     </div>
   <div id="fourth_block" class="display_none">
-    <div class="message">
-      On continue...
+    <div class="message mt-3">
+      Alors ?? Tu trouves??
     </div>
-    <div class="message">
-      Bon comme tu es un peu lente, ton amie et moi on a décidé de te donner des GROS GROS indices. Parce que tu es enceinte. Et qu'on est sympas.
+    <div class="message mt-3">
+      Han la la mais que tu es leeeente... Bon, comme tu ne trouves pas, on n'a pas d'autre choix que de te donner des GROS GROS indices. Allez c'est cadeau. Parce que c'est ton anniversaire. Parce que t'es enceinte. Et surtout parce qu'on est sympas.
     </div>
     <button class="btn btn-outline-secondary mb-1" id="click-help">J'ai besoin d'aide</button>
   </div>
 
   <div id="fifth_block" class="display_none">
     <div class="message mt-3">
-      Juju (version mini) est d'accord pour t'aider et fait des bruits de rappeur pour t'encourager.
+      Juju (version mini) est d'accord pour t'aider et fait des bruits de rappeur pour t'encourager 🧡
     </div>
     <div>
       <%= image_tag "juju.gif", alt:"", width: 200, class:'border-radius'  %>
     </div>
-    <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">LET'S GO BABY</button>
+    <button class="btn btn-outline-secondary mb-1 mt-3" id="click-baby">LET'S GO BABY</button>
   </div>
 
   <div id="clue-one" class="display_none">
     <div class="message mt-3">
-      Indice n°1
+      Indice n°1 🙈
     </div>
     <div id="image-one">
       <%= image_tag "pic_one.png", alt:"", width: 200, class:'border-radius pointer', id:'pic_one'  %>
@@ -93,12 +95,11 @@
 
   <div id="clue-two" class="display_none">
     <div class="message mt-3">
-      Indice n°2
+      Indice n°2 🙉
     </div>
     <div class="message">
       Ca y est tu as enfin compris comment changer d'indice 😈 !
     </div>
-
 
     <div id="image-two">
       <%= image_tag "pic_two.png", alt:"", width: 200, class:'border-radius pointer', id:'pic_two'%>
@@ -107,62 +108,78 @@
 
   <div id="clue-three" class="display_none">
     <div class="message mt-3">
-      Indice n°3
+      Indice n°3 🙊
     </div>
     <div id="image-three">
       <%= image_tag "pic_three.png", alt:"", width: 200, class:'border-radius', id:'pic_three'  %>
     </div>
+
+    <div class="message mt-3">
+      Alors Sherlock, ça avance? 🕵️‍♀️
+    </div>
+    <button class="btn btn-outline-secondary mb-1 mt-3" id="click-sherlock">Ouiii ! J'ai trouvé 🙋‍♀️🙋</button>
   </div>
 
-  <div id="sixth_block">
+
+  <div id="sixth-block" class="display_none">
 
     <div class="message" >
-    Bon je pense que le doute ne subsiste plus!
+    Je pense que le doute ne subsiste plus!
     Je suis... Je suis...
   </div>
+
     <div id="queena_block">
 
     <div>QUUUEEEEEN <del>BEYONCE</del> ALOÏS</div>
 
       <%= image_tag "queena.png", alt:"", width: 200, class:'border-radius', id:'queena_pic'  %>
     </div>
+    <div class="message mt-3">
+      En même temps, qui à part moi peut faire un cadeau aussi <del>geek</del> cool finalement 🤪?
+    </div>
     <div class="message">
-      Qui, à part moi peut faire un cadeau aussi cool finalement 🤪?
-      Je sais ce que tu penses. C'est gentil son petit délire de développeur mais je n'ai aucun cadeau?!!
+      Je sais ce que tu penses. C'est bien mignon son petit délire de développeur mais au final je n'ai aucun cadeau?!!
     </div>
 
   <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">🤬 PAS CONTENTE 🤬 </button>
   </div>
 
-  <div class="message">
-    Sale petite matérialiste !!!
+  <div id="seventh-block" class="display_none">
+    <div class="message">
+      Sale petite matérialiste !!!
+    </div>
+
+
+    <div class="message">
+      Bon, comme je suis vraiment une amie parfaite, j'ai pensé à tout... Tout ce petit tralala depuis tout à l'heure c'est une juste une façon prétentieuse de te présenter ton VRAI cadeau (là je ne plaisante plus hein c'est un cadeau pour de vrai)
+    </div>
+
+    <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">Ah... Je veux bien mon cadeau du coup 👀 </button>
+
   </div>
 
+  <div id="gift-block" class="display_none">
+    <div class="message">
+      🎉 TADAM 🎉
+    </div>
+    <div>
+      <%= image_tag "bonmassage.gif", alt:"", width: 200, class:'border-radius', id:'bonmassage_pic'  %>
+    </div>
 
-  <div class="message">
-    Bon, comme je suis vraiment une amie parfaite, j'ai pensé à tout... Tout ce petit tralala depuis tout à l'heure c'est une juste une façon prétentieuse de te présenter ton VRAI cadeau (là je ne plaisante plus hein c'est un cadeau pour de vrai)
+    <div class="message">
+      On sait toutes les deux combien un accouchement + les premières semaines d'un nourrisson peuvent être éprouvantes... Tu pourras donc te laisser te faire cocooner pendant une heure dans les mains d'une experte 💆‍♀️
+    </div>
+
+    <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">Un dernier message 💌 </button>
   </div>
-
-  <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">Ah... Je veux bien mon cadeau du coup 👀 </button>
-
-  <div class="message">
-    🎉 TADAM 🎉
-  </div>
-  <div>
-    <%= image_tag "bonmassage.gif", alt:"", width: 200, class:'border-radius', id:'bonmassage_pic'  %>
-  </div>
-
-  <div class="message">
-    On sait toutes les deux combien un accouchement + les premières semaines d'un nourrisson peuvent être éprouvantes... Tu pourras donc te laisser te faire cocooner pendant une heure dans les mains d'une experte 💆‍♀️
-  </div>
-
-  <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">Un dernier message 💌 </button>
-
-  <%= audio_tag ("/happybday.mp3")%>
-  <p class="btn btn-primary audioButton">Play</p>
 
 </div>
 
-
+<div id="voice-msg" class="display_none">
+  <audio controls="controls" id="audio_player">
+    <source src="/happybday.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
 
 <canvas id="canvas"></canvas>

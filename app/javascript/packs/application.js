@@ -32,8 +32,17 @@ help_click();
 import { baby_click } from '../plugins/baby_click';
 baby_click ();
 
-import { pic_display } from '../plugins/clues';
-pic_display ();
+import { pic_display_two } from '../plugins/clues_two';
+pic_display_two ();
+
+import { pic_display_three } from '../plugins/clues_three';
+pic_display_three();
+
+import { found_click } from '../plugins/found_btn';
+found_click();
 
 import { audiobday } from '../plugins/audio';
 audiobday();
+
+import { playAudio } from '../plugins/audiotest';
+playAudio();

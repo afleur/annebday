@@ -1,9 +1,12 @@
 const audiobday = () => {
 
-$(".audioButton").on("click", function() {
-  $(".audio-play")[0].currentTime = 0;
-  return $(".audio-play")[0].play();
-  });
+  const play = () => {
+    const audio_play = document.querySelector('#audio-play');
+    audio_play.play();
+ };
+
+  const audiobutton = document.querySelector('.audioButton');
+  audiobutton.addEventListener('click', play, false )
 };
 
 export { audiobday };

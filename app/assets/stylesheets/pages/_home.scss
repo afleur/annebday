@@ -32,21 +32,12 @@ body {
   display: none;
 }
 
-#first_block {
-
+#queena_pic {
+  transition-delay : 0.5s;
+  transition-property: right, opacity;
+  transition-duration: 2s;
 }
 
-#second_block {
-
-}
-
-#third_block {
-
-}
-
-#fourth_block {
-
-}
 
 
 button {
