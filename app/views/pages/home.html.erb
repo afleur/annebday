@@ -36,6 +36,7 @@
     <div class="message mt-3 girl_answer display_none">
       Ouiiii, bien joué ! 💋
       Ah les femmes... Ces êtres supérieurs aux hommes sur tous points.
+      <div style="width:100%;height:0;padding-bottom:51%;padding-top:10%;position:relative;"><iframe src="https://giphy.com/embed/jZUz0iksOclLa" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     </div>
       <div class="message mt-3 boy_answer display_none">
       Non mais quelle obsédée 🍑 !! Non c'est une femme, très chère !!
@@ -68,19 +69,100 @@
     <div class="message">
       Bon comme tu es un peu lente, ton amie et moi on a décidé de te donner des GROS GROS indices. Parce que tu es enceinte. Et qu'on est sympas.
     </div>
-    <button class="btn btn-outline-secondary mb-1">J'ai besoin d'aide</button>
+    <button class="btn btn-outline-secondary mb-1" id="click-help">J'ai besoin d'aide</button>
   </div>
 
   <div id="fifth_block" class="display_none">
     <div class="message mt-3">
-      On va faire un "où est Charlie" pour l'occasion.
+      Juju (version mini) est d'accord pour t'aider et fait des bruits de rappeur pour t'encourager.
     </div>
     <div>
-      <%= image_tag "boomerang.gif", alt:"", width: 200  %>
+      <%= image_tag "juju.gif", alt:"", width: 200, class:'border-radius'  %>
     </div>
-    <button class="btn btn-outline-secondary mb-1 mt-1">NEXT</button>
+    <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">LET'S GO BABY</button>
   </div>
 
+  <div id="clue-one" class="display_none">
+    <div class="message mt-3">
+      Indice n°1
+    </div>
+    <div id="image-one">
+      <%= image_tag "pic_one.png", alt:"", width: 200, class:'border-radius pointer', id:'pic_one'  %>
+    </div>
+  </div>
+
+  <div id="clue-two" class="display_none">
+    <div class="message mt-3">
+      Indice n°2
+    </div>
+    <div class="message">
+      Ca y est tu as enfin compris comment changer d'indice 😈 !
+    </div>
+
+
+    <div id="image-two">
+      <%= image_tag "pic_two.png", alt:"", width: 200, class:'border-radius pointer', id:'pic_two'%>
+    </div>
+  </div>
+
+  <div id="clue-three" class="display_none">
+    <div class="message mt-3">
+      Indice n°3
+    </div>
+    <div id="image-three">
+      <%= image_tag "pic_three.png", alt:"", width: 200, class:'border-radius', id:'pic_three'  %>
+    </div>
+  </div>
+
+  <div id="sixth_block">
+
+    <div class="message" >
+    Bon je pense que le doute ne subsiste plus!
+    Je suis... Je suis...
+  </div>
+    <div id="queena_block">
+
+    <div>QUUUEEEEEN <del>BEYONCE</del> ALOÏS</div>
+
+      <%= image_tag "queena.png", alt:"", width: 200, class:'border-radius', id:'queena_pic'  %>
+    </div>
+    <div class="message">
+      Qui, à part moi peut faire un cadeau aussi cool finalement 🤪?
+      Je sais ce que tu penses. C'est gentil son petit délire de développeur mais je n'ai aucun cadeau?!!
+    </div>
+
+  <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">🤬 PAS CONTENTE 🤬 </button>
+  </div>
+
+  <div class="message">
+    Sale petite matérialiste !!!
+  </div>
+
+
+  <div class="message">
+    Bon, comme je suis vraiment une amie parfaite, j'ai pensé à tout... Tout ce petit tralala depuis tout à l'heure c'est une juste une façon prétentieuse de te présenter ton VRAI cadeau (là je ne plaisante plus hein c'est un cadeau pour de vrai)
+  </div>
+
+  <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">Ah... Je veux bien mon cadeau du coup 👀 </button>
+
+  <div class="message">
+    🎉 TADAM 🎉
+  </div>
+  <div>
+    <%= image_tag "bonmassage.gif", alt:"", width: 200, class:'border-radius', id:'bonmassage_pic'  %>
+  </div>
+
+  <div class="message">
+    On sait toutes les deux combien un accouchement + les premières semaines d'un nourrisson peuvent être éprouvantes... Tu pourras donc te laisser te faire cocooner pendant une heure dans les mains d'une experte 💆‍♀️
+  </div>
+
+  <button class="btn btn-outline-secondary mb-1 mt-1" id="click-baby">Un dernier message 💌 </button>
+
+  <%= audio_tag ("/happybday.mp3")%>
+  <p class="btn btn-primary audioButton">Play</p>
+
 </div>
+
+
 
 <canvas id="canvas"></canvas>

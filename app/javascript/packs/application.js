@@ -26,3 +26,14 @@ girl_or_boy();
 import { swag_or_not } from '../plugins/swag';
 swag_or_not();
 
+import { help_click } from '../plugins/neededhelp';
+help_click();
+
+import { baby_click } from '../plugins/baby_click';
+baby_click ();
+
+import { pic_display } from '../plugins/clues';
+pic_display ();
+
+import { audiobday } from '../plugins/audio';
+audiobday();
