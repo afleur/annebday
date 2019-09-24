@@ -49,9 +49,3 @@ gift_click();
 
 import { message_click } from '../plugins/message';
 message_click();
-
-import { audiobday } from '../plugins/audio';
-audiobday();
-
-import { playAudio } from '../plugins/audiotest';
-playAudio();
