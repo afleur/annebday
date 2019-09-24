@@ -41,6 +41,15 @@ pic_display_three();
 import { found_click } from '../plugins/found_btn';
 found_click();
 
+import { nothappy_click } from '../plugins/nothappy_btn';
+nothappy_click();
+
+import { gift_click } from '../plugins/gift';
+gift_click();
+
+import { message_click } from '../plugins/message';
+message_click();
+
 import { audiobday } from '../plugins/audio';
 audiobday();
 
