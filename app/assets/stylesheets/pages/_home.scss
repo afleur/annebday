@@ -2,16 +2,41 @@ body {
   font-family: 'Patrick Hand SC', cursive;
   text-align: center;
   background-color: rgb(244, 210, 216);
+  font-size: 35px;
 }
 
 .logo {
   text-align: center;
-  margin: 40px 0 20px 0;
+  margin: 80px 0 200px 0;
+}
+
+.neg-margin {
+  margin-top: -80px;
+}
+
+.neg-margin-ml {
+  margin-top: -100px;
+}
+
+.neg-margin-l {
+  margin-top: -130px;
+}
+
+.neg-margin-xl {
+  margin-top: -250px;
+}
+
+.neg-margin-m {
+  margin-top: -50px;
 }
 
 .title {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
+#first_block {
+  vertical-align: middle;
 }
 
 .border-radius {
@@ -23,9 +48,9 @@ body {
 }
 
 .message {
-  font-size: 13px;
+  font-size: 35px;
   text-align: center;
-  margin: 0 400px 20px 400px;
+  margin: 0 200px 20px 200px;
 }
 
 .display_none {
@@ -39,12 +64,15 @@ body {
   transition: all 4.5s ease-in-out;
 }
 
+.btn-outline-secondary{
+  margin-top: 30px;
+  font-size: 35px;
+}
 
+#audio_player {
+  width: 600px;
+}
 
 button {
   font-family: 'VT323', monospace;
-}
-
-canvas {
-  display: block;
 }

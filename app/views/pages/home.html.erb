@@ -1,6 +1,6 @@
 <div>
   <div class="logo">
-  <%= image_tag "rainbow_logobis.png", alt:"rainbow is coming", width: 400  %>
+  <%= image_tag "rainbow_logobis.png", alt:"rainbow is coming", width: 600  %>
   </div>
 
   <div id="first_block">
@@ -33,14 +33,18 @@
     <button class="btn btn-outline-secondary" id="boy_btn">Un homme ♂︎</button>
   </div>
 
-    <div class="message mt-3 girl_answer display_none">
+
+    <div class="message mt-3 mb-3 girl_answer display_none">
       Ouiiii, bien joué ! 💋
       Ah les femmes... Ces êtres supérieurs aux hommes sur tous points.
-      <div style="width:100%;height:0;padding-bottom:45%;padding-top:10%;position:relative;"><iframe src="https://giphy.com/embed/jZUz0iksOclLa" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <br>
+      <iframe src="https://giphy.com/embed/jZUz0iksOclLa" width="480" height="245" frameBorder="0" class="giphy-embed" style="margin-top:30px;" allowFullScreen></iframe>
+
     </div>
     <div class="message mt-3 boy_answer display_none">
       Non mais quelle obsédée 🍑 !! Non, je suis une femme, très chère !!
-      <div style="width:100%;height:0;padding-bottom:50%;padding-top:10%;position:relative;"><iframe src="https://giphy.com/embed/IXTkvYCHkgSKA" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+    <iframe src="https://giphy.com/embed/IXTkvYCHkgSKA" width="480" height="310" frameBorder="0" class="giphy-embed" style="margin-top:30px;" allowFullScreen></iframe>
     </div>
 
   <div id="third_block" class="display_none">
@@ -56,16 +60,20 @@
       <button class="btn btn-outline-secondary" id="notswag_btn">Pas 100% sûre, je connais des boulets</button>
   </div>
 
+    <div class="neg-margin-ml">
+      <div class="message mt-3 display_none" id="swag_answer">
+        Yes, mama 👏👏 Intelligente, certes, mais has been car on ne dit plus "avoir le swag" depuis 2017.
+      </div>
 
-    <div class="message mt-3 display_none" id="swag_answer">
-      Yes, mama 👏👏 Intelligente, certes, mais has been car on ne dit plus "avoir le swag" depuis 2017.
+      <div class="message mt-3 display_none" id="notswag_answer">
+        Non mais quelle méchante 🧟‍♀️ !! Enfin, ça ne m'étonne pas trop de toi... Mauvaise réponse, je suis non seulement intelligente mais truffée de tout un tas d'autres qualités que je ne vais pas préciser ici car la liste serait trop longue.
+      </div>
     </div>
 
-    <div class="message mt-3 display_none" id="notswag_answer">
-      Non mais quelle méchante 🧟‍♀️ !! Enfin, ça ne m'étonne pas trop de toi... Mauvaise réponse, je suis non seulement intelligente mais truffée de tout un tas d'autres qualités que je ne vais pas préciser ici car la liste serait trop longue.
-    </div>
   <div id="fourth_block" class="display_none">
-    <div class="message mt-3">
+    <iframe src="https://giphy.com/embed/AEAikT8wFZwdhkCacK" width="480" height="270" frameBorder="0" style="margin-top:30px;" class="giphy-embed" allowFullScreen></iframe>
+
+    <div class="message mt-3 mb-3">
       Alors ?? Tu trouves??
     </div>
     <div class="message mt-3">
@@ -75,13 +83,13 @@
   </div>
 
   <div id="fifth_block" class="display_none">
-    <div class="message mt-3">
+    <div class="message mt-3 mb-5">
       Juju (version mini) est d'accord pour t'aider et fait des bruits de rappeur pour t'encourager 🧡
     </div>
     <div>
-      <%= image_tag "juju.gif", alt:"", width: 200, class:'border-radius'  %>
+      <%= image_tag "juju.gif", alt:"", width: 600, class:'border-radius'  %>
     </div>
-    <button class="btn btn-outline-secondary mb-1 mt-3" id="click-baby">LET'S GO BABY</button>
+    <button class="btn btn-outline-secondary mb-1 mt-5" id="click-baby">LET'S GO BABY</button>
   </div>
 
   <div id="clue-one" class="display_none">
@@ -89,7 +97,7 @@
       Indice n°1 🙈
     </div>
     <div id="image-one">
-      <%= image_tag "pic_one.png", alt:"", width: 200, class:'border-radius pointer', id:'pic_one'  %>
+      <%= image_tag "pic_one.png", alt:"", width: 600, class:'border-radius pointer', id:'pic_one'  %>
     </div>
   </div>
 
@@ -102,7 +110,7 @@
     </div>
 
     <div id="image-two">
-      <%= image_tag "pic_two.png", alt:"", width: 200, class:'border-radius pointer', id:'pic_two'%>
+      <%= image_tag "pic_two.png", alt:"", width: 600, class:'border-radius pointer', id:'pic_two'%>
     </div>
   </div>
 
@@ -111,7 +119,7 @@
       Indice n°3 🙊
     </div>
     <div id="image-three">
-      <%= image_tag "pic_three.png", alt:"", width: 200, class:'border-radius', id:'pic_three'  %>
+      <%= image_tag "pic_three.png", alt:"", width: 600, class:'border-radius', id:'pic_three'  %>
     </div>
 
     <div class="message mt-3">
@@ -121,14 +129,13 @@
   </div>
 
 
-  <div id="sixth-block">
-    <div id="sixth-block-text" class="message display_none">
-      Je pense que le doute ne subsiste plus!
-        Je suis... Je suis...
-    </div>
-
-          <%= image_tag "queena.png", alt:"", width: 200, class:'border-radius display_none', id:'queena_pic'  %>
-        <div id="queena_block" class="display_none" >
+    <div id="sixth-block" class="neg-margin-l">
+      <div id="sixth-block-text" class="message display_none mb-5">
+        Je pense que le doute ne subsiste plus!
+          Je suis... Je suis...
+      </div>
+          <%= image_tag "queena.png", alt:"", width: 400, class:'border-radius display_none', id:'queena_pic'  %>
+        <div id="queena_block" class="display_none mb-2 mt-4" >
           <del>QUUUEEEEEN BEYONCE</del>
           <div>ALOÏS</div>
           <div class="message mt-3">
@@ -137,63 +144,61 @@
         </div>
 
       <div id="queena-text" class="display_none">
-        <div class="message mt-3">
+        <div class="message mt-5">
           En même temps, qui à part moi peut faire un cadeau aussi <del>geek</del> cool finalement ?
         </div>
         <div class="message">
           Je sais ce que tu penses. C'est bien mignon son petit délire de développeur mais au final je n'ai aucun cadeau?!!
         </div>
-        <button class="btn btn-outline-secondary mb-1 mt-1" id="click-nothappy">🤬 PAS CONTENTE 🤬 </button>
+        <button class="btn btn-outline-secondary mb-5 mt-1" id="click-nothappy">🤬 PAS CONTENTE 🤬 </button>
       </div>
     </div>
 
-  <div id="seventh-block" class="display_none">
-    <div class="message">
-      Sale petite matérialiste !!!
+    <div id="seventh-block" class="display_none neg-margin">
+      <div class="message">
+        Sale petite matérialiste !!!
+      </div>
+
+    <iframe src="https://giphy.com/embed/uyWTOgNGGWfks" width="413" height="480" frameBorder="0" class="giphy-embed" style="margin-top:30px" allowFullScreen></iframe>
+
+      <div class="message">
+        En vrai, étant donné que je suis une amie parfaite, j'ai pensé à tout... Tout ce petit tralala depuis tout à l'heure c'est une juste une façon prétentieuse de te présenter ton <em>VRAI</em> cadeau (là je ne plaisante plus, hein c'est un cadeau réel)
+      </div>
+
+      <button class="btn btn-outline-secondary mb-1 mt-1" id="click-gift">Ah... Je veux bien mon cadeau du coup 👀 </button>
     </div>
 
-    <div style="width:100%;height:0;padding-bottom:16%;position:relative;"><iframe src="https://giphy.com/embed/uyWTOgNGGWfks" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    <div id="gift-block" class="neg-margin-l">
+      <div class="message display_none" id="tadam_start">
+        🥳 TADAM 🥳
+      </div>
+      <div class="message display_none" id="tadam_one">🎉</div>
+      <div class="message display_none" id="tadam_two">🎉</div>
 
-    <div class="message">
-      En vrai, étant donné que je suis une amie parfaite, j'ai pensé à tout... Tout ce petit tralala depuis tout à l'heure c'est une juste une façon prétentieuse de te présenter ton <em>VRAI</em> cadeau (là je ne plaisante plus, hein c'est un cadeau réel)
+      <div id="tadam_all" class="display_none">
+      <div>
+        <%= image_tag "bonmassage.gif", alt:"", width: 600, class:'border-radius', id:'bonmassage_pic'  %>
+      </div>
+
+      <div class="message mt-3 mb-4">
+        On sait toutes les deux combien un accouchement + les premières semaines d'un nourrisson peuvent être éprouvantes... Je t'offre donc les mains d'une experte pour 1h15 de massage spécial jeune maman 💆‍♀️
+      </div>
+
+      <button class="btn btn-outline-secondary mb-1 mt-1" id="click-msg">Un dernier message 💌 </button>
     </div>
-
-    <button class="btn btn-outline-secondary mb-1 mt-1" id="click-gift">Ah... Je veux bien mon cadeau du coup 👀 </button>
-
   </div>
 
-  <div id="gift-block">
-    <div class="message display_none" id="tadam_start">
-      🥳 TADAM 🥳
+  <div class="display_none" id="message-block" >
+    <div id="voice-msg">
+      <audio controls="controls" id="audio_player">
+        <source src="/happybday.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
     </div>
-    <div class="message display_none" id="tadam_one">🎉</div>
-    <div class="message display_none" id="tadam_two">🎉</div>
-
-    <div id="tadam_all" class="display_none">
-    <div>
-      <%= image_tag "bonmassage.gif", alt:"", width: 200, class:'border-radius', id:'bonmassage_pic'  %>
+    <div class="title mt-3">
+        Gros bisous de la Cardi family 😘👨‍👩‍👧
     </div>
-
-    <div class="message mt-3">
-      On sait toutes les deux combien un accouchement + les premières semaines d'un nourrisson peuvent être éprouvantes... Je t'offre donc les mains d'une experte pour une heure de massage spécial jeune maman 💆‍♀️
+    <div class="title mt-3">
+        Et très joyeux anniversaire !
     </div>
-
-    <button class="btn btn-outline-secondary mb-1 mt-1" id="click-msg">Un dernier message 💌 </button>
   </div>
-
-</div>
-
-<div class="display_none" id="message-block" >
-  <div id="voice-msg">
-    <audio controls="controls" id="audio_player">
-      <source src="/happybday.mp3" type="audio/mp3" />
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="title mt-3">
-      Gros bisous de la Cardi family 😘👨‍👩‍👧
-  </div>
-
-
-</div>
-<canvas id="canvas"></canvas>
